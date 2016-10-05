@@ -1,0 +1,18 @@
+.tir > .left_menu
+{
+	height: 100%;
+	position: fixed;
+	min-width: 250px;
+	width: 30%;
+	padding: 25px;
+	background: "black";
+	display: inline-block;
+}
+
+.tir > .body
+{
+	padding: 25px;
+	width: 70%;
+	background: "grey";
+	display: inline-block;
+}
