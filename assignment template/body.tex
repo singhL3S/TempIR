@@ -1,0 +1,71 @@
+%%%%%%%%%%%%%%
+%% Problem 1
+%%%%%%%%%%%%%%
+\newcommand{\REM}[1]{}
+
+% \begin{hwproblem}
+%   Consider ....
+
+%   \begin{enumerate}
+%   \item[(a)] Compute ....?
+%   \item[(b)] Consider again ...?
+%   \item[(c)] Prove that ...
+%   \end{enumerate}
+
+% \hwsolution{
+% \begin{enumerate}
+% \item[(a)] Substituting ....
+% \\
+% \\ 
+% Alternatively, let ....
+
+% \end{enumerate}
+% }
+
+% \end{hwproblem}
+
+% Jaccard Similarity - difficulty 4/5
+
+\begin{hwproblem}
+
+Implement the probabilistic language model explained in the lecture. You will need to implement two versions with different smoothing techniques - Jelinik-Mercer and Dirichlet. 
+
+Remember to allow for the passing of parameters for each ranking model. Retrieve all results from the index for a given query and then rank. 
+\\ 
+Create the following two programs:
+
+\begin{enumerate}
+	\item LMDirichlet -- input parameters are the query, top $k$ results to return (integer value) and Dirichlet prior.
+	\item LMMercer -- input parameters are the query, top $k$ results to return and smoothing parameter $\alpha$.
+\end{enumerate}
+
+Queries are of the format -- \textit{keywords} $@$ \textit{year-year} or just keywords.
+
+The output should be the documents ids in rank order. Output each id in a new line.
+
+Note, we do not need arbitrary time range queries to be supported. Simple year based intervals are enough. You have to complete the following subtasks:
+
+\begin{enumerate}
+	\item Implement LMDirichlet (\textbf{10 points})
+	\item Implement LMMercer (\textbf{10 points})
+	\item Return the correct top $k$ results for a sample set of queries. (\textbf{30 points})
+\end{enumerate}
+
+Dataset: \url{http://l3s.de/~fernando/datasets/Temporalia_Sample3.tar.gz}
+\\
+Tutorial: \url{http://pharos.l3s.uni-hannover.de:7080/tir/lectures/lecture-lucene.pdf}
+ 
+\hwsolution{
+
+}
+
+\end{hwproblem}
+
+
+
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "homework1"
+%%% End: 
