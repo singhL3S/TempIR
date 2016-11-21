@@ -1,0 +1,9 @@
+
+Run using the command:
+java -jar testscript.jar <location_of_index_folder> <content_field_name> <date_field_name> <date_format> 
+
+
+date_format is an integer depending on how you indexed date:
+1 = Long Point
+2 = Text Field
+3 = Int Point                
