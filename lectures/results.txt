@@ -1,0 +1,29 @@
+
+The correct output should look like:
+
+Number of docs in index:55927
+
+Number of docs in collection:55927
+
+
+
+Query: america@ 2011-2013
+
+Total Hits: 8387
+
+Query: china@ 2011-2013
+
+Total Hits: 5227
+
+Query: republic of ireland@ 2011-2011
+
+Total Hits: 1426
+
+Query: diabetes in young children@ 2011-2012
+
+Total Hits: 18127
+
+Query: diabetes in young children@ 2011-2009
+
+Total Hits: 0
+
