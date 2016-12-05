@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1479725857 "homework1.tex" "homework1.pdf" "homework1" 1479725858
+["pdflatex"] 1480942104 "homework1.tex" "homework1.pdf" "homework1" 1480942106
   "/usr/local/texlive/2014/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2014/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "/usr/local/texlive/2014/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy8.tfm" 1246382020 1120 200be8b775682cdf80acad4be5ef57e4 ""
@@ -31,7 +31,6 @@
   "/usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1136768653 768 1321e9409b4137d6fb428ac9dc956269 ""
   "/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1248133631 32001 6aeea3afe875097b1eb0da29acd61e28 ""
-  "/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1248133631 31099 c85edf1dd5b9e826d67c9c7293b6786c ""
@@ -176,14 +175,14 @@
   "/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1401025944 1445653 26a0aacf3d70032b1ec192e8c7792117 ""
   "/usr/local/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt" 1420199206 3832011 703863fc7daf6e50f43aed07f64cbf08 ""
   "/usr/local/texlive/2014/texmf.cnf" 1401025936 577 a59edbde8d3a8c549d0eeaab1739e2ff ""
-  "body.tex" 1479725853 1901 f1fd6ce699b2bee3bcb46adb006e95ba ""
-  "homework1.aux" 1479725858 662 b2b94621371df8d9296b8bf5bec1b851 ""
-  "homework1.out" 1479725858 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "homework1.tex" 1479725666 348 525b4e62ccf2f7d82448edcea3949c60 ""
+  "body.tex" 1480941298 1651 b76efdc7bde4eeb48a137504b8005667 ""
+  "homework1.aux" 1480942106 662 b2b94621371df8d9296b8bf5bec1b851 ""
+  "homework1.out" 1480942106 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "homework1.tex" 1480941311 348 dfa643f15542e2a7228d6d032c9e3ec8 ""
   "logo/l3s_logo.pdf" 1459863688 455218 65788e101a3eb9ccd7b9e723a1224178 ""
   "lsdm-hw.cls" 1478613289 3980 24d2fdeaf6fdaad9b49d933d18902d17 ""
   (generated)
-  "homework1.pdf"
-  "homework1.out"
-  "homework1.log"
   "homework1.aux"
+  "homework1.out"
+  "homework1.pdf"
+  "homework1.log"
