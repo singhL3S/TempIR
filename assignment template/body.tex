@@ -28,32 +28,17 @@
 
 \begin{hwproblem}
 
-Implement the probabilistic language model explained in the lecture. You will need to implement two versions with different smoothing techniques - Jelinik-Mercer and Dirichlet. 
-
-Remember to allow for the passing of parameters for each ranking model. Retrieve all results from the index for a given query and then rank. 
+Use learning to rank to learn a new ranking function for the Temporalia task. Learn a ranking model for each temporal intent. Using the trained models compute the metrics -- precision and NDCG, for the queries provided. You can use 5-fold cross validation to report results.
 \\ 
-Create the following two programs:
-
-\begin{enumerate}
-	\item LMDirichlet -- input parameters are the query, top $k$ results to return (integer value) and Dirichlet prior.
-	\item LMMercer -- input parameters are the query, top $k$ results to return and smoothing parameter $\alpha$.
-\end{enumerate}
-
-Queries are of the format -- \textit{keywords} $@$ \textit{year-year} or just keywords.
-
-The output should be the documents ids in rank order. Output each id in a new line.
-
-Note, we do not need arbitrary time range queries to be supported. Simple year based intervals are enough. You have to complete the following subtasks:
-
-\begin{enumerate}
-	\item Implement LMDirichlet (\textbf{10 points})
-	\item Implement LMMercer (\textbf{10 points})
-	\item Return the correct top $k$ results for a sample set of queries. (\textbf{30 points})
-\end{enumerate}
-
-Dataset: \url{http://l3s.de/~fernando/datasets/Temporalia_Sample3.tar.gz}
+The main objectibve is to generate various features for query document pairs and use RankLib to learn a model for ranking. You can use the same set of features for each temporal intent but make sure you learn different models. You can also use features unique to each intent if you want. You will be evaluated on generating a ranking model that does at least marginally better than a language model. We will look the the features you implement and check if you were able to learn a ranking fucntion from the given data.
 \\
-Tutorial: \url{http://pharos.l3s.uni-hannover.de:7080/tir/lectures/lecture-lucene.pdf}
+The eval script
+
+Temporalia Task Description: \url{http://ntcirtemporalia.github.io/NTCIR-12/taskdescription.html#TDR}
+\\
+Relevance Judgements and Eval Script: \url{http://www.l3s.de/~singh/datasets/TDR/}
+ \\
+RankLib: \url{https://sourceforge.net/p/lemur/wiki/RankLib%20How%20to%20use/}
  
 \hwsolution{
 
