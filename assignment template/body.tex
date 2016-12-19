@@ -28,17 +28,11 @@
 
 \begin{hwproblem}
 
-Use learning to rank to learn a new ranking function for the Temporalia task. Learn a ranking model for each temporal intent. Using the trained models compute the metrics -- precision and NDCG, for the queries provided. You can use 5-fold cross validation to report results.
-\\ 
-The main objectibve is to generate various features for query document pairs and use RankLib to learn a model for ranking. You can use the same set of features for each temporal intent but make sure you learn different models. You can also use features unique to each intent if you want. You will be evaluated on generating a ranking model that does at least marginally better than a language model. We will look the the features you implement and check if you were able to learn a ranking fucntion from the given data.
+Build word embeddings for the text corpus used in the previous assignments. Generate embeddings for different parameter settings and evlauate against the most expressive model. The most expressive model is 500 dimensions for the hidden layer with a window size of 5. Take the top 10 words as your ground truth for any given word. Then use this to calculate precision@5, recall, ndcg@10 and MAP metrics for various models with different window sizes and hidden dimensions. (For ndcg, assume the top 5 are very relevant and the next 5 are slightly relevant. The rest are irrelevant.)
 \\
-The eval script
-
-Temporalia Task Description: \url{http://ntcirtemporalia.github.io/NTCIR-12/taskdescription.html#TDR}
-\\
-Relevance Judgements and Eval Script: \url{http://www.l3s.de/~singh/datasets/TDR/}
+You will need one script to generate new embeddings according to the window size, cbow/skip-gram and the number of dimensions. Your next program will take as input a single word and a given word embedding and as output return the top 10 similar words and the metrics you compute against the ground truth from the most expressive model.
  \\
-RankLib: \url{https://sourceforge.net/p/lemur/wiki/RankLib%20How%20to%20use/}
+You will get a set of words and parameters before the next lecture for which you will email your results (metrics and top 10 words) to Jaspreet.
  
 \hwsolution{
 
