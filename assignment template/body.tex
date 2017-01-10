@@ -28,7 +28,18 @@
 
 \begin{hwproblem}
 
-The objective of this task is to build a query expansion system. For a given query, using the index from Assignment 1 retrieve results and rank according to the statistical language model. Then take the top 1000 documents and build a word embedding model. Using the built word embedding model, expand the query with the top 5 similar terms. Now retrieve and rank (using the language model) results using the new query. Compute precision at 5, 10 using the available ground truth data from Assignment 3. 
+The objective of this task is to build a query expansion system. For a given query, using the index from Assignment 1 retrieve results and rank according to the statistical language model. Then take the top 500 documents and build a word embedding model. Using the built word embedding model, expand the query with the top 5 similar terms. Now retrieve and rank (using the language model) results using the new query. Compute precision at 5, 10 using the available ground truth data from Assignment 3. 
+
+Steps required:
+\begin{enumerate}
+	\item Retrieve documents for a given query.
+	\item Rank by LM (any smoothing and parameter setting) and pick top 500.
+	\item Create a word embedding model from these 500 documents (any parameter setting you choose).
+	\item From this word embedding, find the top 5 similar terms for the query terms (remove stop words).
+	\item Add the new terms to your query and fire a disjunctive query.
+	\item Get the top 10 documents according to LM for this new set of documents.
+\end{enumerate}
+
 
  
 \hwsolution{
